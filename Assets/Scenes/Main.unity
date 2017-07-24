@@ -208,6 +208,7 @@ GameObject:
   - component: {fileID: 1317999096}
   - component: {fileID: 1317999099}
   - component: {fileID: 1317999098}
+  - component: {fileID: 1317999100}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -336,13 +337,27 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1317999090}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 42cd8dcae69d178488f5efa28e7c7e78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   shader: {fileID: 4800000, guid: 95703b29f49b899499233ea7308bb800, type: 3}
-  BlockCount: 164
+  BlockCount: 128
+--- !u!114 &1317999100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1317999090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04830ede054f67a4f88611daf2e164a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shader: {fileID: 4800000, guid: 021f74a6bc502364ea09233306e2eac2, type: 3}
+  SprTex: {fileID: 2800000, guid: 0fb93483483ea4d8faddc22bcec09c11, type: 3}
+  Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1346767981
 GameObject:
   m_ObjectHideFlags: 0
